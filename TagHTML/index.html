@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+    <head> <!-- INFO PER BROWSER --> <!-- Head= testa - Body= corpo -->
+        <title>La mia prima pagina html</title>
+        <meta name="author" content="Yuri" />
+        <meta name="description" content="Qyesto è un sito" />
+        <meta name="keywords" content="pollo, tutorial, pappa, ciccia" />
+        <!-- 
+            Nel css 
+            # = per indicare l'id - . = per indicare le classi 
+        -->
+<!--errore fatto apposta |p|, basta cancellare i due | per far funzionare il comando-->
+        <style>
+                |p| {
+                color: brown;
+                font-weight: bold;
+                background-color: cornflowerblue;
+                padding: 30px;
+            }
+
+            #titolo-1 {
+                color: black;
+            }
+
+            .text-red {
+                color: red;
+            }
+            .text-green {
+                color: green;
+            }
+            .bg-gray{
+                background-color: gray;
+            }
+            .font-big{
+            }
+            .p1{
+                color: white;
+                background-color: violet;
+                font-size: 25px;
+                padding: 45px;
+            }
+
+
+        </style>
+    </head>
+    <body> <!-- CONTENUTO -->
+        
+ 
+        <header>
+            Logo
+        </header>
+        <div id="content">
+dddddddddddddddddddddd dddddddddddddddddddddd
+ddddd dddddd d dd d ddd d d d d d d dd d d dd
+        </div>
+        <footer>
+            Fine del sito
+        </footer>
+ <div id="cpyright"> Copyright</div>
+ 
+<!-- H1 viene utilizzato per il titolo di una pagina o di un articolo -->
+        <h1 id="titolo-1" style="background-color: red;">Titolo 1</h1>
+        <h2 class="text-red font-big bg-gray">Titolo 2</h2>
+        <h3 class="text-green bg-gray">Titolo 3</h3>
+        <h4 class="text-red">Titolo 4</h4>
+        <h5 class="text-green">Titolo 5</h5>
+        <h6 class="text-red font-big">Titolo 6</h6>
+
+        <!-- (P)= paragrafo -->
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Vestibulum turpis metus, elementum pellentesque urna vitae, molestie tincidunt est.<br> 
+            Quisque vestibulum feugiat orci, at lacinia justo efficitur et. Nulla maximus, odio ut venenatis eleifend, tortor arcu blandit lectus, sit amet faucibus diam turpis nec ex.<br> 
+            Duis laoreet posuere sagittis. Curabitur egestas sed elit a mollis. Quisque nec mi mi. Fusce pharetra tellus in ex vulputate fermentum. Donec a ullamcorper nulla, nec vulputate urna. Nam vestibulum elit tempor magna dapibus, et posuere est sagittis. Nulla id mauris a magna mollis elementum non eget ipsum. Integer ut eleifend lorem, sed rutrum odio. Donec ut nulla condimentum, molestie nisl ut, dignissim libero. Sed sit amet pulvinar orci. Vivamus luctus nulla condimentum tellus sollicitudin, a cursus felis imperdiet. Vestibulum metus libero, dictum vel eleifend eu, laoreet ac ante. Phasellus varius semper sem, vel feugiat est semper et.
+        </p>
+        <hr>
+        <p>Pellentesque efficitur blandit justo non suscipit. Praesent auctor nunc ut facilisis laoreet. Mauris sagittis lorem nec lacus accumsan, at auctor sem gravida. Donec laoreet erat eget feugiat sagittis. Curabitur eu lobortis dolor, a dapibus dolor. Fusce augue eros, efficitur lobortis est lacinia, sagittis fringilla sem. Quisque sapien tortor, gravida eget viverra nec, maximus eget metus.</p>
+        <hr>
+        <p>Etiam tincidunt malesuada egestas. Morbi rhoncus ultrices risus vel bibendum. Morbi tellus nunc, mollis nec aliquet sit amet, pulvinar sed elit. Suspendisse potenti. Quisque ornare elit in suscipit iaculis. Integer tincidunt nulla dapibus felis cursus posuere. Etiam erat eros, pretium in egestas at, tincidunt id purus. In hendrerit id elit aliquet euismod. Cras tincidunt augue urna, at eleifend mauris malesuada sed. Sed ultricies velit erat, id auctor velit vehicula sed. Suspendisse dignissim lacus sed urna pharetra tempus.</p>
+
+        <!-- (br) Lascia uno spazio e si usa anche per andare a capo -->
+        <!-- (hr) Traccia una linea -->
+
+        Riga uno <br>
+        Riga due <br>
+        Riga tre
+
+        <!-- (b/strong) Si usa per il Grassetto
+             (i/em) Si usa per il Corsivo
+             (u) Si usa per sottolineare -->
+
+        <p>
+            Questa è una parola in <b>grassetto</b>,
+            quesra è una parola in <i>corsivo</i>,
+            questa è una parola <u>sottolineato</u>
+        </p>
+        <p>
+            Posso usare anche <strong>un altro tag per il grassetto</strong>. <br>
+            Anche per il <em>corsivo</em>.
+        </p>
+        <hr>
+        <!-- Come inserire un link nel sito web -->
+        <p>
+            <a target="_blank" href="https://ciraolo.me">
+                Questo è un link
+            </a>
+        <!-- Usando questo comando (target="_blank") la pagina in questione verrà aperta in una nuova finestra -->
+        </p>
+
+        <hr>
+
+        <!-- Come inserire immagini sia dal sito che da locale nella pagina web -->
+        <!-- src specifichiamo qual è l’origine dell’immagine. Tipicamente inseriamo una URL, o un percorso che punti ad un file. -->
+        <img src="https://www.radiomontecarlo.net/resizer/1200/720/true/cosmo-1592899369678.jpg--una_meravigliosa_farfalla_cosmica_si_aggira_nello_spazio__le_immagini_sono_mozzafiato.jpg?1592899369000" width="100px"> <br>
+
+        <img title="Sfondo carino con il viola" src="C:\Users\yuric\Desktop\viola.jpg" width="100px" alt="Questa immagine è nel pc"> <br>
+
+        <img src="immagini/discord.png" width="100px">
+<hr>
+
+<a href="https://www.focus.it/images/2021/02/22/gatto_1020x680.jpg" target="_blank">
+<img src="immagini/discord.png">
+</a>
+
+
+
+        <hr>
+
+        <!--
+            -Come inserire video nella pagina web
+            -Per inserire i controlli di interazione bisogna usare il comando (controls);
+            -Per avviare il video automaticamento bisogna usare (autoplay), con alcuni browser non funziona e quindi bisogna usare (muted), facendo così il video viene avviato ma mutato.
+        -->
+        <video width="200px" controls autoplay muted>
+            <source src="video/Inazuma Eleven (ITA) Ep 1 .mp4" type="video/mp4">
+            <source src="video/Inazuma Eleven (ITA) Ep 1 .ogg" type="video/ogg">
+        <!-- Molto spesso si usano più elementi source, magari perché si ha lo stesso video caricato in diversi formati -->
+            Il tuo browser non supporta i video, Sorry! :)
+        </video>
+
+        <hr>
+
+        <!-- Come creare una lista in html -->
+        <p>
+            Lista della spesa: <br>
+            <!-- ul significa Lista Non Ordinata, ovvero Elenco Puntato -->
+            <ul>
+                <li>Latte</li>
+                <li>Biscotti</li>
+                <li>Cioccolato</li>
+                <li>Patatine fritte</li>
+            </ul>
+        </p>
+
+        <hr>
+
+        <p>
+            Classifica degli elementi che fanno bene: <br>
+        <!-- ol significa Lista Ordinata, ovvero Elenco Numerato -->
+        <!-- li è un elemento di lista -->
+
+            <ol>
+                <li>McDonalds</li>        
+                <li>Patatine in sacchetto</li>
+                <li>Kebab</li>
+                <li>Pizza wurstel e patatine</li>
+                
+            </ol>
+        </p>
+
+        <hr>
+
+        <!-- Valore di type	| Descrizione
+                type="1"    |	numeri interi “arabi” (valore di default)
+                type="a"    |	numeri alfabeto minuscolo
+                type="A"    |	numeri alfabeto maiuscolo
+                type="i"    |	numeri numeri romani minuscoli
+                type="I"    |	numeri numeri romani maiuscoli -->
+        
+            <ol type="1"><!-- numeri -->
+            <li>Primo livello
+                <ol type="a"><!-- lettere -->
+                    <li>Secondo livello
+                        <ol type="I"><!-- numeri romani -->
+                            <li>Terzo livello</li>
+                            <li>Terzo livello</li>
+                        </ol>
+                    </li>
+                    <li>Secondo livello</li>
+                </ol>
+            </li>
+            <li>Primo livello</li>
+        </ol>
+
+        <hr>
+        
+
+        <!-- Può capitare che per esigenze diverse vogliamo far partire la numerazione da un certo valore,
+            in questo caso ci serviamo di due attributi:
+            start (si applica al tag= ol)
+            value (si applica al tag= li solo se è all'interno di un= ol) -->
+            
+        <!-- lista che parte da 10 -->
+        <ol start="10">
+            <li>elemento</li>
+            <li>elemento</li>
+            <li>elemento</li>
+            <!-- da questo punto in poi contiamo a partire da 30 -->
+            <li value="30">elemento</li>
+            <li>elemento</li>
+            <li>elemento</li>
+        </ol>
+<hr>
+
+
+            <!-- Liste di Definizione, tag= dl -->
+            <!-- dt= indica il termine da definire ed non è rappresentato con rientro a sinistra -->
+            <!-- dd= è la definizione del termine. viene reso con un rientro -->
+        Ecco i principali tag per delimitare il testo:
+        <dl>
+        <dt>p</dt>
+        <dd>individua l'apertura di un nuovo paragrafo</dd>
+        <dt>div</dt>
+        <dd>individua l'apertura di un nuovo blocco di testo</dd>
+        <dt>span</dt>
+        <dd>individua l'apertura di un elemento inline, cui attribuire
+            una formattazione atraverso gli stili</dd>
+        </dl>
+        ci sono poi altri tag che...
+
+<hr>
+
+    <!-- 
+        type="disc" (è così di default)
+         visualizza un “pallino” pieno.
+
+                type="circle"
+                visualizza un cerchio vuoto al proprio interno.
+    
+        type="square"
+        Visualizza un quadrato pieno al proprio interno.
+    -->
+
+        <ul type="disc">
+            <li>Primo</li>
+            <li>Secondo</li>
+            <li>Terzo</li>
+        </ul>
+        <ul type="circle">
+            <li>primo</li>
+            <li>secondo</li>
+            <li>terzo</li>
+          </ul>
+        <ul type="square">
+            <li>Primo</li>
+            <li>Secondo</li>
+            <li>Terzo</li>
+        </ul>
+        
+<hr>
+
+        <!-- iframe | blockquote è una specie di cornice (Frame), un contenitore all'interno del quale possiamo mettere qualisasi cosa -->
+        <iframe 
+            width="300" 
+            src="https://www.youtube.com/embed/Q_lPNdE25xc" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <hr>
+
+        <p>
+            <blockquote 
+                width="300"
+                class="twitter-tweet">
+                <p 
+                    lang="it" 
+                    dir="ltr">L’upgrade che stavi aspettando. Ora 
+                    <a href="https://twitter.com/hashtag/GalaxyZFold3?src=hash&amp;ref_src=twsrc%5Etfw">#GalaxyZFold3
+                    </a> 5G e 
+                    <a href="https://twitter.com/hashtag/GalaxyZFlip3?src=hash&amp;ref_src=twsrc%5Etfw">#GalaxyZFlip3
+                    </a> 5G sono certificati IPX8. 
+                    <a href="https://twitter.com/hashtag/SamsungUnpacked?src=hash&amp;ref_src=twsrc%5Etfw">#SamsungUnpacked
+                    </a> <br>Scopri di più: 
+                    <a href="https://t.co/IcKIFDFrCt">https://t.co/IcKIFDFrCt</a> 
+                    <a href="https://t.co/MNrCHoANIT">pic.twitter.com/MNrCHoANIT</a>
+                </p>&mdash; Samsung Italia (@SamsungItalia) 
+                <a href="https://twitter.com/SamsungItalia/status/1430832396300034062?ref_src=twsrc%5Etfw">August 26, 2021
+                </a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </p>
+
+        <hr>
+
+        <!-- ATTRIBUTO STYLE -->
+        <!-- 
+            - width= larghezza 
+            - height= altezza 
+            - margin= margine sinistra, destra, sopra e sotto se non è specificato il lato (Bordo esterno)
+            - padding= imbottitura (Bordo interno) -->
+
+        <p style="
+            color:red; 
+            background-color:yellowgreen;
+            width: 50%;
+            height: 100px;
+            margin: 25%;
+            padding: 15px;
+            ">
+            Salve a tutti e tutte, come state? <br>
+            Scrivere cose a caso mi riesce benissimo.
+        </p>
+
+        <hr>
+
+        <!-- Contenitore generico: Div (rappresentato a blocchi, occupa tutto lo spazio a sua disposizione) -->
+        <div style="
+            background-color: cadetblue;
+            padding: 30px ;
+            ">
+            <div style="
+                background-color:coral;
+                padding: 15px;
+                margin-bottom: 30px;
+                ">
+                <h1>Questo è un contenitore</h1>
+            </div>
+            <div style="background-color: gold;
+                padding: 15px;">
+                <p>Questo è un contenitore dentro al contenitore che contiene un paragrafo</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Contenitore in linea: Span (Elemento in linea, lavora sulla specifica linea di testo, su una porzione di testo) -->
+
+        <p>
+            Questo è un altro testo per la prova, <br>
+            <span style="
+                background-color:aqua;
+                font-weight:bold
+                ">quindi scrivo un po' a caso
+            </span>, <br>
+
+            <span style="
+                background-color:rgba(220, 20, 60, 0.356);
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+                ">salve a tutti
+            </span>
+        </p>
+        <hr>
+
+        <!-- (id) è unico e uno solo per ogni elemento ed è unico all'interno della pagina, ci serve ad IDENTIFICARE uno specifico elemento,
+        mentre le (class) si possono essere più di una, possono essere anche ripetute e ci servono poi ad attribuire alcune caratteristiche a nostra scelta ad alcuni specifici elementi -->
+    
+            <button><a target="_blank" href="https://www.google.it/" style="color: red;">bottone</a></button>
+
+        <hr>
+            
+        <!-- BREVE ACCENNO SUL CSS -->
+        <h2 style="background-color: yellow;">Prove css</h2>
+        <!-- Vai al primo style partendo da sopra -->
+
+        <hr>
+
+        <!-- Blockquote è un elemento che ospita contenuti citati da altre fonti ed inotre viene separato dal resto del testo con un margine a destra e sinistra -->
+        <blockquote>
+            <p>[...] fatti non foste a viver come bruti, ma per seguir virtute e canoscenza</p>
+            <cite>Inferno Canto XXVI - La Divina Commedia</cite>
+        </blockquote>
+
+        <hr>
+
+        <!-- cite = serve per riportare il nome di un’opera di ingegno, ad esempio il titolo di un libro, di un film o di una canzone dalla quale si è tratta una citazione, oppure ancora il nome di un autore o del personaggio che ha coniato una frase. È un elemento inline e di base appare in corsivo.
+        Se vogliamo inserire delle citazioni direttamente all’interno di un testo, possiamo utilizzare il tag = q, un elemento inline che si può utilizzare per specificare una frase presa da un’opera lettaria o da una fonte, senza doverle dedicare un blocco separato -->
+        <p>Avrei spronato i miei colleghi a fare di più, li avrei incalzati citando
+            <cite>Dante Alighieri</cite>: "<q>Fatti non foste a viver come bruti</q>".</pclass=>
+
+        <hr>    
+
+        <!-- abbr (abbreviazione)= lo utilizziamo quando scriviamo la versione breve di una frase o una parola.
+            Possiamo aggiungere la versione lunga o la definizione dell’acronimo grazie all’attributo= title. -->
+
+            <p>In questa guida approfondiamo l'<abbr title="HyperText Markup Language">HTML</abbr>
+                e ne esploriamo i tag e le potenzialità espressive.</p>
+
+        <hr>
+
+
+        <!-- Quando non si tratta di abbreviare ma di dare una definizione di una parola, ad esempio una parola tecnica, possiamo utilizzare= dfn (definizione) -->
+                <dfn title="Insieme di componenti software, che rende operativi computer, apparati e dispositivi informatici">Sistema Operativo</dfn>
+
+        <hr>
+
+        <!-- I tag che utilizziamo sono= (sup) per gli apici e= (sub) per i pedici.
+            Sono entrambi elementi inline e la rappresentazione di default sui browser è quella che ci aspettiamo, carattere rimpicciolito e posto più in alto o più in basso a seconda che si tratti di un apice o di un pedice. -->
+        E = mc<sup>2</sup>
+
+        <hr>
+
+        <!-- Se vogliamo rappresentare una variabile, la famosa ‘x’ della scuola possiamo usare il tag= var
+        Ottenendo la tipica visualizzazione in corsivo e il pedice per il contatore ‘i’. -->
+        <var>x<sub>i</sub></var>
+
+        <hr>
+
+        <!-- se all’interno del tag= (pre) e sull’editor andiamo a capo o inseriamo molti spazi tra una parola e l’altra, obbligheremo il browser a fare altrettanto. -->
+        <pre>salve     spazio
+            sotto    okay
+            .
+        </pre>
+
+        <hr>
+
+        <!-- Descrive un contenuto che vogliamo togliere dal documento, tipicamente traccia una barra sul testo -->
+        <del>testo di meno importanza</del>
+
+        <hr>
+
+        <!-- in tag= (mark) Rende il testo “evidenziato”, rappresentato non a caso con un colore di sfondo giallino “evidenziatore” -->
+        <mark>testo evidenziato</mark>
+
+        <hr>
+        <!-- con il tag= time  e con l'attributo=datetime, consente di specificare in modo formale la data e l’ora di un elemento che riporta una data in un formato qualsiasi. -->
+        <time datetime="2016-05-31">il trentun maggio</time>
+
+        <hr>
+        <!-- tag= (small) Indica un testo che ha una importanza minore rispetto al resto del documento e viene spesso rappresentato con un carattere più piccolo. -->
+        <small>minore importanza</small>
+
+        <hr>
+
+
+        <!-- <table>=È il contenitore di tutta la tabella e la definisce -->
+        <!-- <tr>=“table row” Contiene una riga della tabella -->
+        <!-- <td>=“table data”Una cella che contiene i valori all’interno di una riga -->
+        <table>
+            <tr><td>Colonna 1</td><td>Colonna 2</td></tr>
+            <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+            <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+            <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+        </table>
+        
+        <hr>
+
+
+    <!-- 
+        <caption> È una didascalia che ci permette di dare una contestualizzazione ai dati e rendere più chiaro il loro significato.
+       
+        <thead> Serve per raggruppare le righe che rappresentano l’intestazione della tabella.
+        
+        <th> “table header” Indica una cella che contiene un intestazione (ad esempio il titolo di una colonna o di una riga) e serve a dare una definizione dei dati cui si riferisce.
+        
+        <tbody>	Raggruppa le righe che contengono il corpo della tabella, spesso con i dati veri e propri.
+        
+        <tfoot>	Racchiude le righe che utilizziamo come footer della tabella, in cui si possono inserire dei dati di riepilogo, somme, medie, etc.
+    -->
+        <table>
+                <caption>
+                    <p>I miei dati</p>
+                </caption>
+
+                <thead>
+                    <tr><th>Colonna 1</th><th>Colonna 2</th></tr>
+                </thead>
+
+                <tfoot>
+                    <tr><td>Totale 1</td><td>Totale 2</td></tr>
+                </tfoot>
+
+                <tbody>
+                    <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+                    <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+                    <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr>
+                </tbody>
+        </table>
+
+    <hr>
+<!-- Possiamo raggruppare le celle della tabella anche per colonna grazie al tag <colgroup>, 
+    che deve essere inserito tra il caption e ogni possibile raggruppamento per riga (thead, tbody, tfood). -->
+<!-- All’interno di colgroup definiamo le colonne che volgiamo includere usando il tag <col>. -->
+<!-- Con colgroup i gruppi vengono creati prendendo le colonne da sinistra verso destra. Il numero di colonne da considerare lo indichiamo grazie all’attributo span. -->
+       
+    <table>
+        <colgroup id="a" span="3"></colgroup>
+        <thead>
+            <tr><th>head</th><th>head</th><th>head</th><th>head</th><th>head</th><th>head</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+            <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+            <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+
+<!-- Possiamo anche sfruttare il tag <col> per definire singole colonne o sottogruppi all’interno di un gruppo: -->
+    <table>
+        <colgroup id="a" span="3"></colgroup>
+        <colgroup id="a">
+            <col id="b1">
+            <col id="b2" span="2">
+        </colgroup>
+        <thead>
+            <tr><th>head</th><th>head</th><th>head</th><th>head</th><th>head</th><th>head</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+            <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+            <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- 
+        Il tag <th> indica il significato dei dati all’interno delle celle.
+        Possiamo sfruttare questo tag sia per le colonne sia per le righe impostando l’attributo scope che prevede 5 valori (stati):
+
+            scope=”row” | Descrizione=	     L’header si riferisce ai valori sulla stessa riga.
+            scope=”col” | Descrizione=	     L’header si riferisce ai valori sulla stessa colonna.
+            scope=”rowgroup” | Descrizione=  L’header si riferisce a tutte le celle incluse nello stesso gruppo di righe del th (il valore non è ammesso se il th non appartiene a un gruppo di righe).
+            scope=”colgroup” | Descrizione=  L’header si riferisce a tutte le celle incluse nello stesso gruppo di colonne del th (valido solo se th appartiene a un gruppo di colonne).
+            scope=”auto” | Descrizione =     Se diamo come scope “auto” o se omettiamo lo scope, l’insieme di celle cui si applica il contenuto di th viene selezionato dal contesto.
+    -->
+
+
+<!-- annidare le tabelle le une dentro le altre e lo facciamo esaminando un semplice esempio: -->
+<table>
+    <thead>
+        <tr><th>Campo</th><th>Tabella</th></tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td>Campo1</td>
+                <td>
+                    <table>
+                        <thead><tr><th>Campo</th><th>Descrizione</th></tr></thead>
+                        <tbody><tr><td>Campo1</td><td>Descrizione1</td></tr></tbody>
+                    </table>
+                </td>                                       
+            </tr>
+        </tbody>
+</table>
+
+<!-- Prendiamo ad esempio una tabella 3×3 un cui vogliamo che una riga abbia una intestazione che valga per 2 colonne: -->
+
+<table>
+	<thead>
+		<tr><th colspan="2">double head</th><th>head</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>cell</td><td>cell</td><td>cell</td></tr>
+		<tr><td>cell</td><td>cell</td><td>cell</td></tr>
+		<tr><td>cell</td><td>cell</td><td>cell</td></tr>
+	</tbody>
+</table>
+
+<hr>
+
+<!-- Per ottenere una cella che occupi più colonne utilizziamo l’attributo (colspan) che si applica a <td> e a <th> come nel nostro caso. In questo modo ad esempio abbiamo indicato un header che vale per entrambe le colonne sottostanti. -->
+<!-- Importante notare che, poiché la nostra casella occupa due posti, per completare le tre colonne basterà aggiungere solo un altro <th>. -->
+<!-- Per completezza facciamo anche un esempio con td e colspan, creando un’ipotetica scheda per la palestra: -->
+
+<table>
+	<thead>
+		<tr><th>Lunedì</th><th>Mercoledì</th><th>Venerdì</th></tr>
+	</thead>
+	<tbody>
+		<tr><td colspan="3">Cyclette</td></tr>
+		<tr><td>Esercizi spalle</td><td>Pettorali</td><td>Tricipiti</td></tr>
+		<tr><td>Squat</td><td>Estensioni gambe</td><td>Polpacci</td></tr>
+	</tbody>
+</table>
+
+<hr>
+
+<!-- Per ottenere una cella che si estenda su più di una riga utilizziamo l’attributo rowspan in modo del tutto simile a quanto fatto con colspan: -->
+<table>
+	<thead>
+		<tr><th>head</th><th>head</th><th>head</th></tr>
+	</thead>
+	<tbody>
+		<tr><td rowspan="2">double row cell</td><td>cell</td><td>cell</td></tr>
+		<tr><td>cell</td><td>cell</td></tr>
+		<tr><td>cell</td><td>cell</td><td>cell</td></tr>
+	</tbody>
+</table>
+
+<hr>
+
+<!-- A livello semantico risulta abbastanza inutuitivo: le intestazioni (th) che sono su più colonne o più righe definiscono il significato delle relative colonne o righe, mentre i dati (td) che sussistono su più righe o colonne acquisicono il significato relativo alle righe o alle colonne che occupano.
+Concludiamo con un ultimo esempio pratico in cui definiamo un ipotetico orario scolastico: -->
+
+<table>
+	<caption>Orario III B</caption>
+	<thead>
+		<tr>
+			<th>Ora</th><th>Lunedì</th><th>Martedì</th><th>Mercoledì</th><th>Giovedì</th><th>Venerdì</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>I</th>
+			<td rowspan="3">Italiano</td><td>Geografia</td><td nowrap>Ed. artistica</td><td colspan="2">Ed. Musicale</td>
+		</tr>
+		<tr>
+			<th>II</th>
+			<td rowspan="2">Scienze</td><td rowspan="2">Ed. fisica</td><td colspan="2">Matematica</td>
+		</tr>
+		<tr>
+			<th>III</th>
+			<td colspan="2">Italiano</td>
+		</tr>
+		<tr>
+			<th>IV</th>
+			<td>Storia</td><td>Matematica</td><td>Geografia</td><td colspan="2">Ed. tecnica</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+Cliccando sul link mi invierai una 
+<a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXxGFhRdvzqxRmZkpVdsZQPsfCbBBKcXkJtgCkhcRvpLxJsZDDjkGMXXmGppRLkftSvzg" style="text-decoration: none">Mail</a>.
+
+<hr>
+
+<!-- Nel markup HTML, possiamo sfruttare il meccanismo dei link anche per creare un indice interno al documento, utilizzando le àncore.
+    Ciascuna ancora può avere infatti un nome: -->
+
+    <a name="primo-paragrafo">Stiamo per esaminare la struttura… Eccetera…</a>
+<br>
+<!-- In un ipotetico indice è allora possibile far riferimento all’ancora presente all’interno del documento attraverso un link che punti ad essa: -->
+    <a href="#primo-paragrafo">vai al primo paragrafo</a>
+<!-- il cancelletto indica che il collegamento deve cercare un àncora chiamata “primo” all’interno della pagina stessa. -->
+
+<!-- Se non si specifica il nome dell’ancora a cui si vuol puntare, viene comunque creato un link che punta ad inizio pagina (viene cercata un’ancora il cui nome non è specificato).
+    Questo infatti è un ottimo escamotage per creare link “vuoti” (in alcuni casi possono tornare utili). -->
+<a href="#">link vuoto</a>
+
+<!-- Per creare un indice interno alla pagina si procede dunque in due fasi distinte:
+
+creazione dell’ancora a cui puntare= <a name="mioNome">
+creazione del collegamento all’ancora appena creata e riferimento
+attraverso il cancelletto <a href="#mioNome"> -->
+<!-- È bene non confondere le due fasi. -->
+
+<hr>
+
+<!-- Se lasciate il cursore del mouse per qualche secondo su un collegamento dotato di title, 
+    vedrete comparire una specie di etichetta con il testo specificato nel title -->
+<a title="in HTML.it puoi trovare risorse per webmaster"
+href="https://www.html.it/" target="_blank" style="text-decoration: none;">
+Visita HTML.it
+</a>
+
+<hr>
+
+<!-- Con “hreflang” si indica la lingua del documento: si tratta di un attributo che migliora l’accessibilità del sito,
+    oltre ad essere potenzialmente utile per i motori di ricerca
+    (l’attributo può essere utilizzato ad esempio per specificare la presenza di una sezione del proprio sito in lingua inglese): -->
+Nel sito del <a rel="nofollow" href="http://www.w3c.org/" hreflang="eng" target="_blank">World Wide Web Consortium</a> puoi trovare le specifiche dell'HTML in lingua inglese
+
+<hr>
+
+<!-- Le accesskey sono delle scorciatoie “da tastiera” che potete utilizzare nel vostro sito.
+    Si tratta di scegliere delle lettere della tastiera che – quando vengano digitate dall’utente – permettono di andare direttamente a determinate pagine.
+    Per esempio potreste specificare che: -->
+<!-- In questa pagina digitando: ALT + h con Internet Explorer, Chrome, Safari e Opera oppure ALT + SHIFT + h con Firefox (Mozilla) si accede direttamente all’home page di HTML.it.
+    Si tratta di un’altra tecnica per migliorare l’accessibilità, ma un uso improprio e indiscriminato di questa tecnica può risultare davvero deleterio per la navigazione.
+    Diciamo che le accesskey dovrebbero essere riservate per la navigazione dei menu che portano alle parti principali del sito. -->
+<a href="https://www.html.it/" accesskey="h" target="_blank" >Torna all'home page di HTML.it</a>
+
+<hr> <!-- DEVO CAPIRE E RIFARE IL TAG <BASE> -->
+
+
+
+
+
+    </body>
+</html>
+
+
+
